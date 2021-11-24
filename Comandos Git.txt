@@ -1,3 +1,5 @@
+git √© uma ferramente incrivel
+
 {caso precise mudar o usuario do github (que deu muito muito trabalho) vc deve mudar usuarios e email 
 git config user.name "nome"
 git config user.email "email"
@@ -31,19 +33,19 @@ git add -A
 >> limpar comandos
 	clear
 
->>salvar um arquivo no banco (uma vers„o)
-	git commit -m "AdiÁ„o do Aqruivo <nome do arquivo>"
+>>salvar um arquivo no banco (uma vers√£o)
+	git commit -m "Adi√ß√£o do Aqruivo <nome do arquivo>"
 
 >> corta caminho git all e git commit
 	git commit -a -m <"mensagem">
 
->> informa todas as modificaÁıes ocorrida ate aquele pontos nos arquivos e nos arquivo a commitar
+>> informa todas as modifica√ß√µes ocorrida ate aquele pontos nos arquivos e nos arquivo a commitar
 	git diff
 
->> mostrar as diferenÁas na area de preparaÁ„o(apos git add)
+>> mostrar as diferen√ßas na area de prepara√ß√£o(apos git add)
 	git diff --cached
 
->> para mostrar as configuraÁıes
+>> para mostrar as configura√ß√µes
 	git diff --staged
 
 >> para exibir o historico de commit
@@ -52,40 +54,40 @@ git add -A
 >>historico todo em uma linha
 	git log --oneline
 
->> ver versıes anteriores 
+>> ver vers√µes anteriores 
 git checkout <codigo amarelo do git log>
 
->>desfazendo alteraÁoes no arquivo a um commit anterior
+>>desfazendo altera√ßoes no arquivo a um commit anterior
 git checkout <nome do aquivo>
 
->> desfazendo alteraÁoes em varios arquivos 
+>> desfazendo altera√ßoes em varios arquivos 
  git reset --hard
 
->> forÁa remoÁ„o de arquivos adicionado
+>> for√ßa remo√ß√£o de arquivos adicionado
 	git clean -f
 
 >> clonar um arquivo
 git clone<nome do arquivo> / <>
 
 >> criar novo repositorio no github para add projeto local atraves do git
- git remote add origin https://github.com/Sancttus/TesteGit.git (o link È do novo repositorio do github)
+ git remote add origin https://github.com/Sancttus/TesteGit.git (o link √© do novo repositorio do github)
 
 >> apos linka o novo repositorio com o git 
 	 git push -u origin master
 
 
 
->>lanÁa projeto no servidor externo (no servidor local)
+>>lan√ßa projeto no servidor externo (no servidor local)
 git push
 
->> baixar a vers„o mais recente do servidor externo
->>levando em contar que fizeram alguma alteraÁ„o no projeto no servidor externo
+>> baixar a vers√£o mais recente do servidor externo
+>>levando em contar que fizeram alguma altera√ß√£o no projeto no servidor externo
 	git pull
 
 >> modificando repositorio github
 git remote set-url origin new.git.url/here
 
->> criar um novo branch (aquele master que fica por padr„o)
+>> criar um novo branch (aquele master que fica por padr√£o)
 git branch <nome da nova branch>
 
 >> mostra todas as branch
@@ -99,7 +101,7 @@ git checkout -b <nome da branch>
 
 >> removendo uma branch 
 git branch -d <nome da branch>
->>remoÁ„o forÁada 
+>>remo√ß√£o for√ßada 
 git branch -D <nome da branch> 
 
 
@@ -115,10 +117,10 @@ git branch -m <nome da nova branch>
 >> enviar tag para o servidor
 	git push origin <nome da tag>
 
->>guardar mudanÁas feitas no diretorio local 
+>>guardar mudan√ßas feitas no diretorio local 
 	git stash
 
->>para ver as mudanÁas 
+>>para ver as mudan√ßas 
 	git stash list
 	
 
@@ -131,7 +133,7 @@ git branch -m <nome da nova branch>
 >> desfazendo commit
  git reset --hard head-1
 
->>tras todas as alteraÁoes feitas no servidor contudo n„o implementa, È preciso dar um GIT LOG --ONELINE para ver quais s„o os update DEPOIS DAR UM GIT MERGE
+>>tras todas as altera√ßoes feitas no servidor contudo n√£o implementa, √© preciso dar um GIT LOG --ONELINE para ver quais s√£o os update DEPOIS DAR UM GIT MERGE
  git fetch
 
 
