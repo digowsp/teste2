@@ -1,4 +1,4 @@
-git é uma ferramente incrivel
+
 
 {caso precise mudar o usuario do github (que deu muito muito trabalho) vc deve mudar usuarios e email 
 git config user.name "nome"
