@@ -1,0 +1,123 @@
+fatal: protocol 'new.git.url/https' is not supported
+>> se caso isso ocorra use
+	git remote remove origin
+
+
+>>para iniciar um novo repositorio git
+cd <local do novo repositorio>
+git init
+
+>> adicionar pastas e arquivos ao git
+git add <nome do arquivo ou pasta>
+git add --All
+git add -A
+
+>> verificar os arquivos no git
+	git status
+
+>> limpar comandos
+	clear
+
+>>salvar um arquivo no banco (uma versão)
+	git commit -m "Adição do Aqruivo <nome do arquivo>"
+
+>> corta caminho git all e git commit
+	git commit -a -m <"mensagem">
+
+>> informa todas as modificações ocorrida ate aquele pontos nos arquivos e nos arquivo a commitar
+	git diff
+
+>> mostrar as diferenças na area de preparação(apos git add)
+	git diff --cached
+
+>> para mostrar as configurações
+	git diff --staged
+
+>> para exibir o historico de commit
+	git log
+
+>>historico todo em uma linha
+	git log --oneline
+
+>> ver versões anteriores 
+git checkout <codigo amarelo do git log>
+
+>>desfazendo alteraçoes no arquivo a um commit anterior
+git checkout <nome do aquivo>
+
+>> desfazendo alteraçoes em varios arquivos 
+ git reset --hard
+
+>> força remoção de arquivos adicionado
+	git clean -f
+
+>> clonar um arquivo
+git clone<nome do arquivo> / <>
+
+>> criar novo repositorio no github para add projeto local atraves do git
+ git remote add origin https://github.com/Sancttus/TesteGit.git (o link é do novo repositorio do github)
+
+>> apos linka o novo repositorio com o git 
+	 git push -u origin master
+
+
+
+>>lança projeto no servidor externo (no servidor local)
+git push
+
+>> baixar a versão mais recente do servidor externo
+>>levando em contar que fizeram alguma alteração no projeto no servidor externo
+	git pull
+
+>> modificando repositorio github
+git remote set-url origin new.git.url/here
+
+>> criar um novo branch (aquele master que fica por padrão)
+git branch <nome da nova branch>
+
+>> mostra todas as branch
+git branch 
+
+>> para visualizar se branch foi criada
+git checkout <nome da branch>
+
+>> para criar uma nova branch e visualizar em so codigo
+git checkout -b <nome da branch>
+
+>> removendo uma branch 
+git branch -d <nome da branch>
+>>remoção forçada 
+git branch -D <nome da branch> 
+
+
+>> deletar branch la no servidor
+ git push --delete <nome da branch>
+
+>> renomar branch local estando nela
+git branch -m <nome da nova branch>
+
+>> criando tag pra marcar um ponto no historico
+	git tag -a <nome qualquer V0.1> -m (para criar msg) <"msg">
+
+>> enviar tag para o servidor
+	git push origin <nome da tag>
+
+>>guardar mudanças feitas no diretorio local 
+	git stash
+
+>>para ver as mudanças 
+	git stash list
+	
+
+>>salvar stash com uma mensagem
+ git stash save <"msg">
+
+>> deletar stash
+	git stash drop stash@{1} se tiver +1 de salvo
+
+>> desfazendo commit
+ git reset --hard head-1
+
+>>tras todas as alteraçoes feitas no servidor contudo não implementa, é preciso dar um GIT LOG --ONELINE para ver quais são os update DEPOIS DAR UM GIT MERGE
+ git fetch
+	
