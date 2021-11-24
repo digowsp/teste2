@@ -1,3 +1,16 @@
+{caso precise mudar o usuario do github (que deu muito muito trabalho) vc deve mudar usuarios e email 
+git config user.name "nome"
+git config user.email "email"
+
+mais ainda precisa ir nas credenciais do windows e alterar o git:http://github.com
+
+e depois da um git push {passando a url do diretorio github } 
+}https://github.com/digowsp/teste2.git
+
+ops isso deve abrir uma janela pedido pra acessar sua conta do github para que o git possa se comunicar com ele. ufa
+
+
+
 fatal: protocol 'new.git.url/https' is not supported
 >> se caso isso ocorra use
 	git remote remove origin
