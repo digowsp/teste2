@@ -120,4 +120,20 @@ git branch -m <nome da nova branch>
 
 >>tras todas as alteraçoes feitas no servidor contudo não implementa, é preciso dar um GIT LOG --ONELINE para ver quais são os update DEPOIS DAR UM GIT MERGE
  git fetch
+
+
+/**************************************************************/
+
+Alias
+
+git config --global alias.s status
+>> e agora podemos usar S com status, elias cria atalhos
+
+git config --global unset.s status
+>>para remover um atalho
+
+>>listar url salva no git
+git remote -v
+
+
 	
